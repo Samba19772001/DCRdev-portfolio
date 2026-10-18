@@ -4,52 +4,99 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="DCRdev — création de sites web professionnels et solutions digitales au Sénégal.">
-  <title>DCRdev — Création de sites web</title>
+
+  <meta name="description"
+    content="DCRdev crée des sites web professionnels, boutiques en ligne et applications web sur mesure pour les entreprises et entrepreneurs au Sénégal.">
+
+  <meta name="theme-color" content="#070b12">
+
+  <title>DCRdev — Création de sites web professionnels au Sénégal</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
     rel="stylesheet">
+
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="icon" type="image/png" href="assets/images/dcrdev-logo.png">
+
+  <meta property="og:type" content="website">
   <meta property="og:title" content="DCRdev — Création de sites web au Sénégal">
   <meta property="og:description"
-    content="Sites vitrines, e-commerce, landing pages et applications web sur mesure au Sénégal.">
+    content="Sites vitrines, boutiques en ligne, landing pages et applications web sur mesure.">
   <meta property="og:image" content="assets/images/dcrdev-logo.png">
 </head>
 
 <body>
+
+  <!-- EN-TÊTE ET NAVIGATION -->
   <header class="header">
-    <a class="logo" href="#accueil" aria-label="DCRdev accueil"><span>DCR</span><b>dev</b></a>
-    <nav class="nav" id="nav">
-      <a href="#projets">Projets</a>
-      <a href="#services">Services</a>
-      <a href="#apropos">À propos</a>
-      <a class="nav-cta" href="#contact">Parler de mon projet</a>
+    <a href="index.html" class="logo" aria-label="DCRdev - Accueil">
+      <span>DCR</span><b>dev</b>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Navigation principale">
+      <a href="index.html" aria-current="page">Accueil</a>
+      <a href="services.html">Services</a>
+      <a href="projets.html">Projets</a>
+      <a href="apropos.html">À propos</a>
+      <a href="contact.html" class="nav-cta">Parler de mon projet</a>
     </nav>
-    <button class="menu" aria-label="Ouvrir le menu">☰</button>
+
+    <button class="menu" type="button" aria-label="Ouvrir le menu" aria-controls="nav" aria-expanded="false">
+      ☰
+    </button>
   </header>
 
   <main>
+
+    <!-- SECTION ACCUEIL -->
     <section class="hero" id="accueil">
       <div class="hero-copy reveal">
         <span class="eyebrow">CRÉATION WEB • SÉNÉGAL</span>
+
         <h1>Vos idées,<br><span>notre code.</span></h1>
-        <p>Nous créons des sites web modernes, rapides et pensés pour aider les entreprises, commerces et entrepreneurs
-          à mieux présenter leur activité en ligne.</p>
+
+        <p>
+          Nous créons des sites web modernes, rapides et adaptés
+          aux entreprises, commerces et entrepreneurs qui veulent
+          développer leur présence en ligne.
+        </p>
+
         <div class="hero-actions">
-          <a class="btn primary" href="#projets">Voir nos réalisations <span>→</span></a>
-          <a class="btn secondary" href="#contact">Démarrer un projet</a>
+          <a class="btn primary" href="projets.html">
+            Voir nos réalisations <span>→</span>
+          </a>
+
+          <a class="btn secondary" href="contact.html">
+            Démarrer un projet
+          </a>
         </div>
-        <div class="hero-meta"><span>● Thiès</span><span>● Dakar</span><span>● Sénégal</span></div>
+
+        <div class="hero-meta">
+          <span>● Thiès</span>
+          <span>● Dakar</span>
+          <span>● Sénégal</span>
+        </div>
       </div>
+
       <div class="hero-card reveal">
-        <div class="browser-top"><i></i><i></i><i></i><span>portfolio.dcrdev</span></div>
+        <div class="browser-top">
+          <i></i>
+          <i></i>
+          <i></i>
+          <span>portfolio.dcrdev</span>
+        </div>
+
         <div class="mock-content">
           <div class="mock-badge">DCRdev</div>
+
           <h2>Une présence digitale<br>à votre image.</h2>
+
           <div class="mock-line"></div>
+
           <div class="mock-grid">
             <div></div>
             <div></div>
@@ -59,207 +106,442 @@
       </div>
     </section>
 
-    <section class="stats reveal">
-      <div><strong>Web</strong><span>Sites modernes</span></div>
-      <div><strong>Mobile</strong><span>Responsive</span></div>
-      <div><strong>Sur mesure</strong><span>Selon vos besoins</span></div>
-      <div><strong>Sénégal</strong><span>Thiès • Dakar</span></div>
+    <!-- POINTS FORTS -->
+    <section class="stats reveal" aria-label="Nos points forts">
+      <div>
+        <strong>Web</strong>
+        <span>Sites modernes</span>
+      </div>
+
+      <div>
+        <strong>Mobile</strong>
+        <span>Responsive</span>
+      </div>
+
+      <div>
+        <strong>Sur mesure</strong>
+        <span>Selon vos besoins</span>
+      </div>
+
+      <div>
+        <strong>Sénégal</strong>
+        <span>Thiès • Dakar</span>
+      </div>
     </section>
 
+    <!-- APERÇU DES PROJETS -->
     <section class="section" id="projets">
       <div class="section-head reveal">
-        <div><span class="eyebrow">RÉALISATIONS</span>
+        <div>
+          <span class="eyebrow">RÉALISATIONS</span>
           <h2>Des projets qui parlent<br><span>pour nous.</span></h2>
         </div>
-        <p>Une sélection de projets web conçus pour des activités et besoins différents.</p>
+
+        <p>
+          Une sélection de projets web conçus pour des activités
+          et des besoins différents.
+        </p>
       </div>
+
       <div class="projects">
+
+        <!-- MG HOME DESIGN -->
         <article class="project-card featured reveal">
           <a class="project-media media-furniture image-project" href="https://mghomedesign.netlify.app" target="_blank"
-            rel="noopener" aria-label="Voir le site MG HOME DESIGN">
-            <img src="assets/images/mg.jpg" alt="Aperçu du site MG HOME DESIGN Thiès">
-            <div class="media-overlay"><span>MG HOME DESIGN</span><small>MEUBLES & DÉCORATION • THIÈS</small><b>Voir le
-                site ↗</b></div>
-          </a>
-          <div class="project-info">
-            <div><span class="tag">SITE VITRINE</span>
-              <h3>MG HOME DESIGN THIÈS</h3>
-              <p>Un site vitrine moderne pour présenter l'univers, les collections et les moyens de contact d'une
-                entreprise d'ameublement et de décoration.</p>
-            </div><a href="https://mghomedesign.netlify.app" target="_blank" rel="noopener" class="arrow"
-              aria-label="Voir le site">↗</a>
-          </div>
-        </article>
+            rel="noopener noreferrer" aria-label="Visiter le site MG Home Design Thiès">
 
-        <article class="project-card featured reveal">
-          <a class="project-media media-furniture image-project" href="https://senegalnjaay.netlify.app" target="_blank"
-            rel="noopener" aria-label="Voir le site SenegalNjaay">
-            <img src="assets/images/SenegalNjaay.jpeg" alt="Aperçu du site SenegalNjaay">
-            <div class="media-overlay"><span>SenegalNjaay</span><small>SenegalNjaay - Boutique de T-shirt</small><b>Voir
-                le
-                site ↗</b></div>
-          </a>
-          <div class="project-info">
-            <div><span class="tag">Site</span>
-              <h3>SenegalNjaay</h3>
-              <p>Un site web pour mettre en valeur la marque SenegalNjaay, présenter ses T-shirt et faciliter les
-                commandes
-                directement sur watshap </p>
-            </div><a href="https://senegalnjaay.netlify.app" target="_blank" rel="noopener" class="arrow"
-              aria-label="Voir le site">↗</a>
-          </div>
-        </article>
+            <img src="assets/images/mg.jpg" alt="Aperçu du site MG Home Design Thiès" loading="lazy">
 
-        <article class="project-card reveal">
-          <a class="project-media media-beauty image-project" href="https://glam-beaute-thies.netlify.app"
-            target="_blank" rel="noopener" aria-label="Voir le site Glam Beauté Thiès">
-            <img src="assets/images/glamm.jpg" alt="Aperçu du site Glam Beauté Thiès">
-            <div class="media-overlay"><span>GLAM BEAUTÉ</span><small>BEAUTÉ • BIEN-ÊTRE</small><b>Voir le site ↗</b>
+            <div class="media-overlay">
+              <span>MG HOME DESIGN</span>
+              <small>MEUBLES & DÉCORATION • THIÈS</small>
+              <b>Voir le site ↗</b>
             </div>
           </a>
+
           <div class="project-info">
-            <div><span class="tag">SITE VITRINE</span>
-              <h3>Glam Beauté Thiès</h3>
-              <p>Une présence élégante pour présenter les prestations, l'univers, la galerie et faciliter les
-                réservations.</p>
-            </div><a href="https://glam-beaute-thies.netlify.app" target="_blank" rel="noopener" class="arrow"
-              aria-label="Voir le site">↗</a>
+            <div>
+              <span class="tag">SITE VITRINE</span>
+              <h3>MG HOME DESIGN THIÈS</h3>
+
+              <p>
+                Un site vitrine moderne pour présenter
+                l'univers, les collections et les moyens
+                de contact d'une entreprise d'ameublement
+                et de décoration.
+              </p>
+            </div>
+
+            <a href="https://mghomedesign.netlify.app" target="_blank" rel="noopener noreferrer" class="arrow"
+              aria-label="Visiter MG Home Design">
+              ↗
+            </a>
           </div>
         </article>
 
+        <!-- SSENGALNJAAY -->
+        <article class="project-card featured reveal">
+          <a class="project-media media-furniture image-project" href="https://senegalnjaay.netlify.app" target="_blank"
+            rel="noopener noreferrer" aria-label="Visiter la boutique SsengalNjaay">
+
+            <img src="assets/images/SenegalNjaay.jpeg" alt="Aperçu de la boutique en ligne SsengalNjaay" loading="lazy">
+
+            <div class="media-overlay">
+              <span>SsengalNjaay</span>
+              <small>MODE • BOUTIQUE DE T-SHIRTS</small>
+              <b>Voir le site ↗</b>
+            </div>
+          </a>
+
+          <div class="project-info">
+            <div>
+              <span class="tag">BOUTIQUE EN LIGNE</span>
+              <h3>SsengalNjaay</h3>
+
+              <p>
+                Un site web pour mettre en valeur la marque,
+                présenter ses T-shirts et faciliter les
+                commandes directement sur WhatsApp.
+              </p>
+            </div>
+
+            <a href="https://senegalnjaay.netlify.app" target="_blank" rel="noopener noreferrer" class="arrow"
+              aria-label="Visiter SsengalNjaay">
+              ↗
+            </a>
+          </div>
+        </article>
+
+        <!-- GLAM BEAUTÉ THIÈS -->
+        <article class="project-card reveal">
+          <a class="project-media media-beauty image-project" href="https://glam-beaute-thies.netlify.app"
+            target="_blank" rel="noopener noreferrer" aria-label="Visiter le site Glam Beauté Thiès">
+
+            <img src="assets/images/glamm.jpg" alt="Aperçu du site Glam Beauté Thiès" loading="lazy">
+
+            <div class="media-overlay">
+              <span>GLAM BEAUTÉ</span>
+              <small>BEAUTÉ • BIEN-ÊTRE</small>
+              <b>Voir le site ↗</b>
+            </div>
+          </a>
+
+          <div class="project-info">
+            <div>
+              <span class="tag">SITE VITRINE</span>
+              <h3>Glam Beauté Thiès</h3>
+
+              <p>
+                Une présence élégante pour présenter
+                les prestations, l'univers, la galerie
+                et faciliter les réservations.
+              </p>
+            </div>
+
+            <a href="https://glam-beaute-thies.netlify.app" target="_blank" rel="noopener noreferrer" class="arrow"
+              aria-label="Visiter Glam Beauté Thiès">
+              ↗
+            </a>
+          </div>
+        </article>
+
+        <!-- KAAYJANGALMA -->
         <article class="project-card reveal">
           <div class="project-media media-kaay image-project">
-            <img src="assets/images/kaay-jangalma.jpg" alt="Aperçu de la plateforme KaayJangalma">
-            <div class="media-overlay"><span>KAAYJANGALMA</span><small>ÉDUCATION • MISE EN RELATION</small><b>Projet non
-                publié · Présentation sur demande</b></div>
+            <img src="assets/images/kaay-jangalma.jpg" alt="Aperçu de la plateforme KaayJangalma" loading="lazy">
+
+            <div class="media-overlay">
+              <span>KAAYJANGALMA</span>
+              <small>ÉDUCATION • MISE EN RELATION</small>
+              <b>Présentation sur demande</b>
+            </div>
           </div>
+
           <div class="project-info">
-            <div><span class="tag">PLATEFORME WEB</span>
+            <div>
+              <span class="tag">PLATEFORME WEB</span>
               <h3>KaayJangalma</h3>
-              <p>Plateforme qui met en relation les parents avec des enseignants pour trouver un professeur selon la
-                matière, le niveau et la localisation.</p>
-            </div><a
-              href="https://wa.me/221782921001?text=Bonjour%20DCRdev%2C%20je%20souhaite%20avoir%20des%20informations%20sur%20vos%20projets."
-              target="_blank" rel="noopener" class="arrow" aria-label="Contacter DCRdev">↗</a>
+
+              <p>
+                Une plateforme qui met en relation les parents
+                et les enseignants selon la matière, le niveau
+                scolaire et la localisation.
+              </p>
+            </div>
+
+            <a href="https://wa.me/221782921001?text=Bonjour%20DCRdev%2C%20je%20souhaite%20avoir%20une%20pr%C3%A9sentation%20de%20KaayJangalma."
+              target="_blank" rel="noopener noreferrer" class="arrow"
+              aria-label="Demander une présentation de KaayJangalma">
+              ↗
+            </a>
           </div>
         </article>
 
+        <!-- SENEGAL EDTECH -->
         <article class="project-card reveal">
           <div class="project-media media-edtech image-project">
-            <img src="assets/images/seneg.jpg" alt="Aperçu de la plateforme SenegalEdTech">
-            <div class="media-overlay"><span>SENEGAL EDTECH</span><small>ÉDUCATION • GESTION SCOLAIRE</small><b>Projet
-                non publié · Présentation sur demande</b></div>
+            <img src="assets/images/seneg.jpg" alt="Aperçu de l'application SenegalEdTech" loading="lazy">
+
+            <div class="media-overlay">
+              <span>SENEGAL EDTECH</span>
+              <small>ÉDUCATION • GESTION SCOLAIRE</small>
+              <b>Présentation sur demande</b>
+            </div>
           </div>
+
           <div class="project-info">
-            <div><span class="tag">APPLICATION WEB</span>
-              <h3>Senegal EdTech</h3>
-              <p>Plateforme de gestion scolaire pour simplifier les classes, élèves, matières, notes, classements et
-                bulletins.</p>
-            </div><a
-              href="https://wa.me/221782921001?text=Bonjour%20DCRdev%2C%20je%20souhaite%20voir%20le%20projet%20Senegal%20EdTech."
-              target="_blank" rel="noopener" class="arrow" aria-label="Demander une présentation">↗</a>
+            <div>
+              <span class="tag">APPLICATION WEB</span>
+              <h3>SenegalEdTech</h3>
+
+              <p>
+                Une application de gestion scolaire pour
+                organiser les classes, les élèves, les notes,
+                les classements et les bulletins.
+              </p>
+            </div>
+
+            <a href="https://wa.me/221782921001?text=Bonjour%20DCRdev%2C%20je%20souhaite%20voir%20le%20projet%20SenegalEdTech."
+              target="_blank" rel="noopener noreferrer" class="arrow"
+              aria-label="Demander une présentation de SenegalEdTech">
+              ↗
+            </a>
           </div>
         </article>
+
+      </div>
+
+      <div class="section-more reveal">
+        <a class="btn secondary" href="projets.html">
+          Découvrir tous les projets →
+        </a>
       </div>
     </section>
 
+    <!-- APERÇU DES SERVICES -->
     <section class="section dark-section" id="services">
       <div class="section-head reveal">
-        <div><span class="eyebrow">SERVICES</span>
+        <div>
+          <span class="eyebrow">SERVICES</span>
           <h2>Ce que nous<br><span>créons.</span></h2>
         </div>
+
         <p>Du site simple à l'application web sur mesure.</p>
       </div>
+
       <div class="services-grid">
-        <div class="service reveal"><span>01</span>
+        <div class="service reveal">
+          <span>01</span>
           <h3>Site vitrine</h3>
-          <p>Présentez votre entreprise, vos services, vos réalisations et vos moyens de contact.</p>
+          <p>
+            Présentez votre entreprise, vos services,
+            vos réalisations et vos moyens de contact.
+          </p>
         </div>
-        <div class="service reveal"><span>02</span>
+
+        <div class="service reveal">
+          <span>02</span>
           <h3>E-commerce</h3>
-          <p>Présentez et vendez vos produits avec une expérience pensée pour le mobile.</p>
+          <p>
+            Présentez et vendez vos produits avec une expérience
+            pensée pour les utilisateurs mobiles.
+          </p>
         </div>
-        <div class="service reveal"><span>03</span>
+
+        <div class="service reveal">
+          <span>03</span>
           <h3>Landing page</h3>
-          <p>Une page ciblée pour promouvoir une offre, une campagne, un produit ou un événement.</p>
+          <p>
+            Une page ciblée pour promouvoir une offre,
+            une campagne, un produit ou un événement.
+          </p>
         </div>
-        <div class="service reveal"><span>04</span>
+
+        <div class="service reveal">
+          <span>04</span>
           <h3>Sur mesure</h3>
-          <p>Application web, espace administrateur, gestion de données et fonctionnalités spécifiques.</p>
+          <p>
+            Applications web, espaces administrateurs,
+            gestion de données et fonctionnalités spécifiques.
+          </p>
         </div>
       </div>
-    </section>
 
-    <section class="section about" id="apropos">
-      <div class="about-card reveal"><span class="eyebrow">DCRdev</span>
-        <h2>Le digital doit être<br><span>utile, pas compliqué.</span></h2>
-        <p>Nous accompagnons les entreprises et entrepreneurs qui veulent passer d'une simple présence sur les réseaux
-          sociaux à une véritable présence digitale.</p>
-        <div class="checks"><span>✓ Design moderne</span><span>✓ Adapté au mobile</span><span>✓ Pensé pour votre
-            activité</span><span>✓ Accompagnement personnalisé</span></div>
+      <div class="section-more reveal">
+        <a class="btn primary" href="services.html">
+          Découvrir nos services →
+        </a>
       </div>
     </section>
 
+    <!-- PRÉSENTATION DE DCRDEV -->
+    <section class="section about" id="apropos">
+      <div class="about-card reveal">
+        <span class="eyebrow">DCRdev</span>
+
+        <h2>Le digital doit être<br><span>utile, pas compliqué.</span></h2>
+
+        <p>
+          Nous accompagnons les entreprises et les entrepreneurs
+          qui veulent passer d'une simple présence sur les réseaux
+          sociaux à une véritable présence digitale.
+        </p>
+
+        <div class="checks">
+          <span>✓ Design moderne</span>
+          <span>✓ Adapté au mobile</span>
+          <span>✓ Pensé pour votre activité</span>
+          <span>✓ Accompagnement personnalisé</span>
+        </div>
+
+        <a class="btn secondary" href="apropos.html">
+          En savoir plus sur DCRdev →
+        </a>
+      </div>
+    </section>
+
+    <!-- PROCESSUS DE TRAVAIL -->
     <section class="section process" id="processus">
       <div class="section-head reveal">
-        <div><span class="eyebrow">PROCESSUS</span>
+        <div>
+          <span class="eyebrow">PROCESSUS</span>
           <h2>Simple, clair,<br><span>efficace.</span></h2>
         </div>
-        <p>De la première idée à la mise en ligne, nous avançons avec vous à chaque étape.</p>
+
+        <p>
+          De la première idée à la mise en ligne, nous avançons
+          avec vous à chaque étape.
+        </p>
       </div>
+
       <div class="process-grid">
-        <div class="process-step reveal"><span>01</span>
+        <div class="process-step reveal">
+          <span>01</span>
           <div>
             <h3>Échange</h3>
-            <p>Nous discutons de votre activité, de vos objectifs et des besoins de vos clients.</p>
+            <p>
+              Nous discutons de votre activité, de vos objectifs
+              et des besoins de vos clients.
+            </p>
           </div>
         </div>
-        <div class="process-step reveal"><span>02</span>
+
+        <div class="process-step reveal">
+          <span>02</span>
           <div>
             <h3>Conception</h3>
-            <p>Nous construisons une interface moderne, claire et adaptée à votre image.</p>
+            <p>
+              Nous construisons une interface moderne,
+              claire et adaptée à votre image.
+            </p>
           </div>
         </div>
-        <div class="process-step reveal"><span>03</span>
+
+        <div class="process-step reveal">
+          <span>03</span>
           <div>
             <h3>Développement</h3>
-            <p>Nous transformons le design en une expérience web rapide et responsive.</p>
+            <p>
+              Nous transformons le design en une expérience
+              web rapide et responsive.
+            </p>
           </div>
         </div>
-        <div class="process-step reveal"><span>04</span>
+
+        <div class="process-step reveal">
+          <span>04</span>
           <div>
             <h3>Mise en ligne</h3>
-            <p>Après validation, votre site est prêt à être présenté à vos clients.</p>
+            <p>
+              Après validation, votre site est prêt à être
+              présenté à vos clients.
+            </p>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- APPEL À L'ACTION -->
     <section class="contact-section" id="contact">
-      <div class="contact-inner reveal"><span class="eyebrow">CONTACT</span>
+      <div class="contact-inner reveal">
+        <span class="eyebrow">CONTACT</span>
+
         <h2>Vous avez un projet ?<br><span>Parlons-en.</span></h2>
-        <p>Expliquez-nous simplement ce que vous souhaitez créer. Nous vous répondrons avec une première orientation
-          adaptée à votre besoin.</p>
-        <div class="contact-actions"><a class="btn primary big"
+
+        <p>
+          Expliquez-nous ce que vous souhaitez créer.
+          Nous vous répondrons avec une première orientation
+          adaptée à votre besoin.
+        </p>
+
+        <div class="contact-actions">
+          <a class="btn primary big"
             href="https://wa.me/221782921001?text=Bonjour%20DCRdev%2C%20je%20souhaite%20parler%20de%20mon%20projet%20web."
-            target="_blank" rel="noopener">WhatsApp ↗</a><a class="btn secondary big" href="tel:+221782921001">Appeler
-            le 78 292 10 01</a><a class="btn secondary big" href="https://instagram.com/dcrdev.sn" target="_blank"
-            rel="noopener">Instagram ↗</a></div>
+            target="_blank" rel="noopener noreferrer">
+            WhatsApp ↗
+          </a>
+
+          <a class="btn secondary big" href="tel:+221782921001">
+            Appeler le 78 292 10 01
+          </a>
+
+          <a class="btn secondary big" href="https://instagram.com/dcrdev.sn" target="_blank" rel="noopener noreferrer">
+            Instagram ↗
+          </a>
+
+          <a class="btn secondary big" href="contact.html">
+            Page contact →
+          </a>
+        </div>
       </div>
     </section>
+
   </main>
 
+  <!-- BOUTON WHATSAPP FLOTTANT -->
   <a class="floating-wa"
     href="https://wa.me/221782921001?text=Bonjour%20DCRdev%2C%20je%20souhaite%20parler%20de%20mon%20projet%20web."
-    target="_blank" rel="noopener" aria-label="Contacter DCRdev sur WhatsApp"><span>WhatsApp</span>↗</a>
+    target="_blank" rel="noopener noreferrer" aria-label="Contacter DCRdev sur WhatsApp">
+    <span>WhatsApp</span> ↗
+  </a>
 
-  <footer>
-    <div class="logo"><span>DCR</span><b>dev</b></div>
+  <!-- PIED DE PAGE -->
+  <footer class="footer">
+    <a href="index.html" class="logo" aria-label="DCRdev - Accueil">
+      <span>DCR</span><b>dev</b>
+    </a>
+
     <p>Vos idées, notre code.</p>
-    <p class="footer-contact">WhatsApp / Appel : <a href="tel:+221782921001">78 292 10 01</a></p><small>© <span
-        id="year"></span> DCRdev. Tous droits réservés.</small>
+
+    <p class="footer-contact">
+      WhatsApp / Appel :
+      <a href="tel:+221782921001">78 292 10 01</a>
+    </p>
+
+    <p class="footer-contact">
+      Email :
+      <a href="mailto:doucoure.pape-samba@ugb.edu.sn">
+        doucoure.pape-samba@ugb.edu.sn
+      </a>
+    </p>
+
+    <div class="footer-links">
+      <a href="services.html">Services</a>
+      <a href="projets.html">Projets</a>
+      <a href="apropos.html">À propos</a>
+      <a href="contact.html">Contact</a>
+      <a href="https://instagram.com/dcrdev.sn" target="_blank" rel="noopener noreferrer">
+        Instagram
+      </a>
+    </div>
+
+    <small>
+      © <span id="year"></span> DCRdev. Tous droits réservés.
+    </small>
   </footer>
+
   <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
